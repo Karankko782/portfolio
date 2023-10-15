@@ -1,0 +1,115 @@
+*{
+   color: white;
+   background-color: black;
+   font-family: Arial;
+   display: flexbox;
+}
+
+.name{
+   background-color: white;
+   color: black;
+   font-weight: bold;
+   font-size: 20px;
+   margin-left: 30px;
+}
+
+.header{
+   background-color: white;
+   color: black;
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   padding-bottom: 15px;
+   border-bottom-width: 10px;
+   border-bottom-color:gray;
+   border-bottom-style:double;
+   
+}
+
+.linkedin,.github{
+   background-color: white;
+   color: black;
+   padding-right: 20px;
+   
+}
+.github{
+   background-color: white;
+   color: black;
+}
+.links{
+   background-color: white;
+   color: black;
+   margin-right: 40px;
+}
+
+.body{
+   padding-top : 100px;
+}
+
+.intro{
+   padding-left: 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom-width: 2px;
+   border-bottom-color: gray;
+   border-bottom-style: dotted;
+}
+
+.hi-text{
+   color: lightcoral;
+}
+button{
+   padding: 10px;
+   background-color: cyan;
+   font-weight: 700;
+   font-size: medium;
+   cursor: pointer;
+}
+
+.about{
+   text-align: center;
+   display: flex;
+   justify-content:space-between;
+   align-items: top;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   border-bottom-width: 2px;
+   border-bottom-color: gray;
+   border-bottom-style: dotted;
+
+}
+
+h2{
+   color: lightcoral;
+   text-align: center;
+}
+
+.about-content{
+   text-align: center;
+   line-height: 30px;
+}
+
+li,ul{
+   display: inline-block;
+   padding-right: 20px;
+   font-weight: bold;
+   font-size: medium;
+}
+
+.skills,.projects{
+   padding-bottom: 40px;
+   border-bottom-width: 2px;
+   border-bottom-color: gray;
+   border-bottom-style: dotted;
+
+}
+
+.contact-info{
+   text-align: center;
+}
